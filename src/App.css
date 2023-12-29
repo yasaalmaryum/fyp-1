@@ -1,0 +1,41 @@
+/* App.css */
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.chatbox {
+  width: 300px;
+  max-height: 400px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+}
+
+.user, .chatbot {
+  margin-bottom: 5px;
+}
+
+.user-input {
+  display: flex;
+  align-items: center;
+}
+.centered-container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px; /* Adjust as needed */
+  max-width: 600px; /* Optional: Set a maximum width for the centered content */
+}
