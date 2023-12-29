@@ -38,7 +38,7 @@ import AdminLogin from './components/Admin.jsx';
 import AuthRoot from "./pages/auth/AuthRoot";
 import HrPanel from "./maincomponents/Hrmodule.jsx";
 import HeadPanel from "./maincomponents/HeadDepart.jsx";
-
+// testing
   const USER_TYPES={
     HR:"hr",
     CORIDNATOR:"cordintor",
@@ -52,7 +52,7 @@ const CURRENT_USER_TYPE = USER_TYPES.FACULTY
 
 const AppRouter = () => (
 
-    
+  
       <div>
         <Routes>
           {/*Student module*/}
